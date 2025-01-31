@@ -4,5 +4,5 @@ function Greeting({ name }) {
 }
 
 export default function App() {
-  return <Greeting name="Ray"/>;
+  return <Greeting name="QualRay"/>;
 }

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tailwindcss/vite": "^4.0.1",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "cra-template": "1.2.0",
@@ -41,5 +42,10 @@
       "typescript": "4.9.5",
       "postcss": "8.4.38"
     }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.1"
   }
 }
