@@ -32,7 +32,7 @@ const App = () => {
           </li>
         </ul>
       </nav>
-      <div className="w-[80%] h-full bg-red-100">
+      <div className="w-[80%] h-full bg-zinc-100">
 
       </div>
     </div>
