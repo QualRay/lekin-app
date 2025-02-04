@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from 'react-router-dom';
 import Loading from './Loading';
 import axios from "../utils/Axios";
+import Home from  './Home';
 
 const Details = () => {
 
@@ -30,11 +31,17 @@ const Details = () => {
 
   return product ? (
     <>
+      <div className="mt-10 ml-10">
+
+      <Link to="/" className="py-2 px-5 border rounded border-gray-200 text-blue-300">
+        Home
+      </Link>
+      </div>
       <div className="w-[70%] flex h-full justify-between m-auto py-[15%] px-[10%]">
         <img
           className="mr-8 object-contain h-[60%] w-[50%]"
           src={`${product.image}`}
-          alt="bag1 img"
+          alt="img"
         />
         <div className="content w-[45%]">
           <h1 className="text-2xl font-bold">{product.title}</h1>
